@@ -32,7 +32,7 @@ test_case!(join, async move {
         INSERT INTO Player (id, name) VALUES
             (1, \"Taehoon\"),
             (2,    \"Mike\"),
-            (3,   \"Jorno\"),
+            (8,   \"Jorno\"),
             (4,   \"Berry\"),
             (5,    \"Hwan\");
         ",
