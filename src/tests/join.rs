@@ -32,14 +32,14 @@ test_case!(join, async move {
         INSERT INTO Player (id, name) VALUES
             (1, \"Taehoon\"),
             (2,    \"Mike\"),
-            (3,   \"Jorno\"),
+            (8,   \"Jorno\"),
             (4,   \"Berry\"),
             (5,    \"Hwan\");
         ",
         "
         INSERT INTO Item (id, quantity, player_id) VALUES
             (101, 1, 1),
-            (102, 4, 2),
+            (102, 3, 2),
             (103, 9, 3),
             (104, 2, 3),
             (105, 1, 3),
